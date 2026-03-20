@@ -3,7 +3,7 @@ import React from 'react';
 const Contact = () => {
   const contactInfo = [
     { icon: '📍', label: 'Office Address', value: '42, Water Tower Road, Kukatpally\nHyderabad – 500072, Telangana' },
-    { icon: '📞', label: 'Phone Number', value: '+91 98765 43210', href: 'tel:+919876543210' },
+    { icon: '📞', label: 'Phone Number', value: '+91 7842809475', href: 'tel:+917842809475' },
     { icon: '✉️', label: 'Email Address', value: 'support@bluedrop.in', href: 'mailto:support@bluedrop.in' },
     { icon: '🕐', label: 'Business Hours', value: 'Monday – Saturday\n9:00 AM – 7:00 PM' },
   ];
@@ -43,7 +43,7 @@ const Contact = () => {
             <div className="mt-6 pt-6 border-t border-slate-100">
               <p className="text-sm font-semibold text-slate-700 mb-3">Quick Support</p>
               <div className="flex flex-col gap-2">
-                <a href="https://wa.me/919876543210?text=Hi, I need help with my water purifier"
+                <a href="https://wa.me/917842809475?text=Hi, I need help with my water purifier"
                   target="_blank" rel="noreferrer"
                   className="flex items-center gap-3 p-3 rounded-xl bg-green-50 hover:bg-green-100 transition-colors">
                   <div className="w-8 h-8 rounded-full bg-green-500 flex items-center justify-center">
@@ -56,12 +56,12 @@ const Contact = () => {
                     <p className="text-xs text-green-600">Quick response within minutes</p>
                   </div>
                 </a>
-                <a href="tel:+919876543210"
+                <a href="tel:+917842809475"
                   className="flex items-center gap-3 p-3 rounded-xl bg-blue-50 hover:bg-blue-100 transition-colors">
                   <div className="w-8 h-8 rounded-full bg-blue-500 flex items-center justify-center text-white text-sm">📞</div>
                   <div>
                     <p className="font-semibold text-blue-800 text-sm">Call Us Now</p>
-                    <p className="text-xs text-blue-600">+91 98765 43210</p>
+                    <p className="text-xs text-blue-600">+91 7842809475</p>
                   </div>
                 </a>
               </div>

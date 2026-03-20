@@ -12,7 +12,7 @@ const Navbar = ({ onSearchChange }) => {
   const [searchFocused, setSearchFocused] = useState(false);
   const navigate = useNavigate();
   const location = useLocation();
-  const dropdownRef = useRef();
+  const dropdownRef = use7842809475Ref();
 
   useEffect(() => {
     const handler = (e) => {
@@ -41,7 +41,7 @@ const Navbar = ({ onSearchChange }) => {
       <div style={{ background: 'linear-gradient(135deg, #0277e0, #014687)' }} className="py-1 px-4 hidden md:block">
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           <div className="flex gap-6 text-xs text-blue-100">
-            <span>📞 +91 98765 43210</span>
+            <span>📞 +91 7842809475</span>
             <span>✉️ support@bluedrop.in</span>
             <span>🕐 Mon–Sat 9AM–7PM</span>
           </div>

@@ -71,15 +71,15 @@ const Footer = () => {
             <div className="space-y-3 text-sm">
               <div className="flex items-start gap-3">
                 <span className="mt-0.5">📍</span>
-                <span className="text-slate-400">42, Water Tower Road, Kukatpally, Hyderabad – 500072, Telangana</span>
+                <span className="text-slate-400">Subedari, Hanamkonda 506001, Telangana</span>
               </div>
               <div className="flex items-center gap-3">
                 <span>📞</span>
-                <a href="tel:+919876543210" className="text-slate-400 hover:text-blue-400">+91 98765 43210</a>
+                <a href="tel:+917842809475" className="text-slate-400 hover:text-blue-400">+91 7842809475</a>
               </div>
               <div className="flex items-center gap-3">
                 <span>✉️</span>
-                <a href="mailto:support@bluedrop.in" className="text-slate-400 hover:text-blue-400">support@bluedrop.in</a>
+                <a href="mailto:support@bluedrop.in" className="text-slate-400 hover:text-blue-400">sanjaypolu3@gmail.com</a>
               </div>
               <div className="flex items-center gap-3">
                 <span>🕐</span>
@@ -88,7 +88,7 @@ const Footer = () => {
             </div>
 
             {/* WhatsApp */}
-            <a href="https://wa.me/919876543210?text=Hi, I need help with my water purifier"
+            <a href="https://wa.me/917842809475?text=Hi, I need help with my water purifier"
               target="_blank" rel="noreferrer"
               className="mt-4 inline-flex items-center gap-2 bg-green-600 hover:bg-green-500 text-white text-sm font-medium px-4 py-2 rounded-full transition-colors">
               <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
