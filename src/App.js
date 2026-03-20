@@ -38,7 +38,7 @@ const ProtectedRoute = ({ children, adminOnly = false }) => {
 
 const WhatsAppFAB = () => (
   <a
-    href="https://wa.me/919876543210?text=Hi, I need help with my water purifier"
+    href="https://wa.me/917842809475?text=Hi, I need help with my water purifier"
     target="_blank"
     rel="noreferrer"
     className="whatsapp-fab"
