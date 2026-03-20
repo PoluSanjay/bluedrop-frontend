@@ -12,7 +12,7 @@ const Navbar = ({ onSearchChange }) => {
   const [searchFocused, setSearchFocused] = useState(false);
   const navigate = useNavigate();
   const location = useLocation();
-  const dropdownRef = use5Ref();
+  const dropdownRef = useRef();
 
   useEffect(() => {
     const handler = (e) => {
