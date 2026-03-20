@@ -128,9 +128,7 @@ const Auth = () => {
 
           {isLogin && (
             <div className="mt-4 text-center">
-              <p className="text-sm text-slate-500">
-                Demo Admin: <strong>admin@bluedrop.com</strong> / <strong>Admin@123</strong>
-              </p>
+             
             </div>
           )}
         </div>
