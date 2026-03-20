@@ -42,7 +42,7 @@ const Navbar = ({ onSearchChange }) => {
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           <div className="flex gap-6 text-xs text-blue-100">
             <span>📞 +91 7842809475</span>
-            <span>✉️ support@bluedrop.in</span>
+            <span>✉️ sanjaypolu3@gmail.com</span>
             <span>🕐 Mon–Sat 9AM–7PM</span>
           </div>
           <div className="text-xs text-blue-100 flex gap-4">

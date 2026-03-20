@@ -79,7 +79,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center gap-3">
                 <span>✉️</span>
-                <a href="mailto:support@bluedrop.in" className="text-slate-400 hover:text-blue-400">sanjaypolu3@gmail.com</a>
+                <a href="mailto:sanjaypolu3@gmail.com" className="text-slate-400 hover:text-blue-400">sanjaypolu3@gmail.com</a>
               </div>
               <div className="flex items-center gap-3">
                 <span>🕐</span>

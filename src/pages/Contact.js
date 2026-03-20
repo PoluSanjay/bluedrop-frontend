@@ -4,7 +4,7 @@ const Contact = () => {
   const contactInfo = [
     { icon: '📍', label: 'Office Address', value: '42, Water Tower Road, Kukatpally\nHyderabad – 500072, Telangana' },
     { icon: '📞', label: 'Phone Number', value: '+91 7842809475', href: 'tel:+917842809475' },
-    { icon: '✉️', label: 'Email Address', value: 'support@bluedrop.in', href: 'mailto:support@bluedrop.in' },
+    { icon: '✉️', label: 'Email Address', value: 'sanjaypolu3@gmail.com', href: 'mailto:sanjaypolu3@gmail.com' },
     { icon: '🕐', label: 'Business Hours', value: 'Monday – Saturday\n9:00 AM – 7:00 PM' },
   ];
 
