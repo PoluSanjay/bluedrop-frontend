@@ -342,7 +342,7 @@ const Home = () => {
           <p className="text-slate-500 mb-8 max-w-xl mx-auto">Register a complaint and our expert technician will be at your door within 24 hours.</p>
           <div className="flex flex-wrap gap-4 justify-center">
             <Link to="/complaint" className="btn-primary">🔧 Register Complaint Now</Link>
-            <a href="tel:+919876543210" className="btn-secondary">📞 Call Us Now</a>
+            <a href="tel:+917842809475" className="btn-secondary">📞 Call Us Now</a>
           </div>
         </div>
       </section>
