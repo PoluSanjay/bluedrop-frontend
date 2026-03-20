@@ -146,7 +146,9 @@ const AdminDashboard = () => {
                       <div key={order._id} className="flex justify-between items-center py-3 border-b border-slate-50">
                         <div>
                           <p className="font-semibold text-sm text-slate-800">#{order.orderId}</p>
-                          <p className="text-xs text-slate-400">{order.user?.name}</p>
+                          <p className="text-xs text-slate-500">{order.user?.name}</p>
+                          <p className="text-xs text-slate-400">{order.shippingAddress?.street}, {order.shippingAddress?.city}</p>
+                          <p className="text-xs text-slate-400">📞 {order.shippingAddress?.phone}</p>
                         </div>
                         <span className={`badge text-xs status-${order.status}`}>{order.status}</span>
                       </div>
@@ -219,7 +221,7 @@ const AdminDashboard = () => {
                     <table className="w-full">
                       <thead>
                         <tr className="bg-slate-50 border-b border-slate-100">
-                          {['Order ID', 'Customer', 'Amount', 'Payment', 'Status', 'Date', 'Actions'].map(h => (
+                          {['Order ID', 'Customer', 'Phone', 'Delivery Address', 'Amount', 'Payment', 'Status', 'Date', 'Update'].map(h => (
                             <th key={h} className="px-4 py-3 text-left text-xs font-bold text-slate-500 uppercase whitespace-nowrap">{h}</th>
                           ))}
                         </tr>
@@ -227,9 +229,15 @@ const AdminDashboard = () => {
                       <tbody>
                         {orders.map(order => (
                           <tr key={order._id} className="border-b border-slate-50 hover:bg-slate-50 transition-colors">
-                            <td className="px-4 py-3 font-mono text-sm text-blue-700 font-semibold">#{order.orderId}</td>
-                            <td className="px-4 py-3 text-sm text-slate-700">{order.user?.name || 'N/A'}</td>
-                            <td className="px-4 py-3 font-semibold text-sm">₹{order.totalAmount?.toLocaleString('en-IN')}</td>
+                            <td className="px-4 py-3 font-mono text-sm text-blue-700 font-semibold whitespace-nowrap">#{order.orderId}</td>
+                            <td className="px-4 py-3 text-sm text-slate-700 whitespace-nowrap">{order.user?.name || 'N/A'}</td>
+                            <td className="px-4 py-3 text-sm text-slate-700 whitespace-nowrap">📞 {order.shippingAddress?.phone || 'N/A'}</td>
+                            <td className="px-4 py-3 text-xs text-slate-600 max-w-xs">
+                              <p>{order.shippingAddress?.street}</p>
+                              <p>{order.shippingAddress?.city}, {order.shippingAddress?.state}</p>
+                              <p className="font-semibold">📮 {order.shippingAddress?.pincode}</p>
+                            </td>
+                            <td className="px-4 py-3 font-semibold text-sm whitespace-nowrap">₹{order.totalAmount?.toLocaleString('en-IN')}</td>
                             <td className="px-4 py-3"><span className="badge bg-slate-100 text-slate-600 text-xs">{order.paymentMethod}</span></td>
                             <td className="px-4 py-3">
                               <span className={`badge text-xs status-${order.status}`}>{order.status}</span>
