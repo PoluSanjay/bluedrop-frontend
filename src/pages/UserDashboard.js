@@ -172,7 +172,7 @@ const UserDashboard = () => {
                 </div>
                 <div className="bg-blue-50 rounded-xl p-4 text-sm text-blue-700">
                   <p className="font-semibold mb-1">💡 Need help?</p>
-                  <p className="text-blue-600">Contact us at <strong>+91 98765 43210</strong> or WhatsApp us for instant support.</p>
+                  <p className="text-blue-600">Contact us at <strong>+91 7842809475</strong> or WhatsApp us for instant support.</p>
                 </div>
               </div>
             )}
